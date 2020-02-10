@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>C.A. OSASUNA</title>
+    <link href = "images/osasuna.png" rel="icon" type="image/png">
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="images/osasuna.png" class="rounded float-left" style="width: 100px; height: 100px;">
+    <h1 class="font-weight-bold" style="color:blanchedalmond ;">C.A. OSASUNA</h1> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Idioma
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Español</a>
+            <a class="dropdown-item" href="#">Euskera</a>
+            <a class="dropdown-item" href="#">Inglés</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline" style="margin-left: 20px;">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button type="button" class="btn btn-success my-2 my-sm-0" data-toggle="modal" data-target="#staticBackdrop">Buscar</button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">¡Oh! Lo sentimos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                No hemos encontrado lo que estas buscando...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Entiendo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form> 
+    </div>
+  </nav>
+
+
+    <!-- MENU -->
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light" style="background: linear-gradient(to right, #E6371F, #1F61E6);">
+    <div class="navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav justify-content-center">
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="btn btn-link" style="font-size: 25px; color: blanchedalmond;" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+              NOTICIAS
+            </button>
+            <div class="collapse" id="collapseExample1">
+              <a class="dropdown-item" href="#">General</a>
+              <a class="dropdown-item" href="#">Fichajes</a>
+              <a class="dropdown-item" href="#">Osasunistas por el Mundo</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item"> 
+          <div class="dropdown">
+            <button class="btn btn-link" style="font-size: 25px; color: blanchedalmond;" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+              PLANTILLA
+            </button>
+            <div class="collapse" id="collapseExample2">
+              <a class="dropdown-item" href="cuerpo_tecnico.html">Cuerpo Técnico</a>
+              <a class="dropdown-item" href="jugadores.html">Jugadores</a>
+              <a class="dropdown-item" href="#">Cantera</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <button class="btn btn-link" style="font-size: 25px; color: blanchedalmond;" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+              LA LIGA
+            </button>
+            <div class="collapse" id="collapseExample3">
+              <a class="dropdown-item" href="#">Resultados</a>
+              <a class="dropdown-item" href="#">Clasificación</a>
+              <a class="dropdown-item" href="#">Próximos partidos</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown"> 
+            <button class="btn btn-link" style="font-size: 25px; color: blanchedalmond;" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+              TIENDA
+            </button>
+            <div class="collapse" id="collapseExample4">
+              <a class="dropdown-item" href="#">Entradas</a>
+              <a class="dropdown-item" href="productos.html">Productos oficiales</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    
+      
+      <!-- CAROUSEL -->
+      <div class="container-sm" style="margin-top: 50px;">
+        <div class="carousel slide" data-ride="carousel" id="demo">
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner" style="width: 100%;">
+            <div class="carousel-item active" style="text-align: center;">
+              <img src="images/sadar1.jpg" alt="Sadar" class="d-block w-100">
+            </div>
+            <div class="carousel-item" style="text-align: center;">
+              <img src="images/sadar2.jpg" alt="Sadar" class="d-block w-100">
+            </div>
+            <div class="carousel-item" style="text-align: center;">
+              <img src="images/sadar3.jpg" alt="Sadar" class="d-block w-100">
+            </div>
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        
+        </div>
+      </div>
+      
+      <!-- TEXT + IMAGE -->
+      <div class="container-sm" style="padding: 50px;">
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              El Club Atlético Osasuna, es un club de fútbol español de Pamplona, Navarra, España, que compite actualmente en LaLiga Santander. Fue fundado el 24 de octubre de 1920, fruto de la fusión de dos clubes de Pamplona: el Unión Sportiva y el New Club, lo que le convierte en el club decano de Navarra.Investigaciones del Archivo Real y General de Navarra indican que el club Sportiva Foot-Ball Club fundado el 31 de mayo de 1919, cambió de nombre a Club Osasuna en 1920, siendo esta última fecha la que ha sido tomada como referencia del nacimiento del club.En 1926 el nombre de la entidad aún sufriría una nueva y última modificación al sustituir la denominación Club Osasuna por la de Club Atlético Osasuna.
+  
+  Osasuna ha participado en una fase previa de la Liga de Campeones y en cuatro ediciones de la Copa de la UEFA, llegando a las semifinales de esta competición en la temporada 2006/2007. Es el club de fútbol más importante de Navarra por palmarés e historia, con un total de 38 temporadas en Primera División, 37 en Segunda y 13 en Tercera.5​ Históricamente, es el 16º mejor equipo de España.6​7​ Fue nombrado mejor club del mundo del mes de diciembre de 2006 por la IFFHS gracias a cuatro victorias ligueras consecutivas y un triunfo en la Copa de la UEFA.
+  
+  Históricamente, su presupuesto anual se encuentra entre los más bajos de Primera División. En la temporada 2019-20 aprobó un presupuesto de 54,4 millones de euros,9​ dieciocho veces menor que el del FC Barcelona.10​ Por otro lado, es uno de los cuatro únicos clubes profesionales de España, junto al Real Madrid, FC Barcelona y el Athletic Club, que no es una sociedad anónima deportiva, de manera que la propiedad del club recae en sus socios.11​
+            </p>
+          </div>
+          <div class="col-md-6" style="text-align: center;">
+            <figure class="figure">
+              <img class="img-thumbnail" src="images/osasuna_cami.jpg">
+              <figcaption class="figure-caption">Equipación de Osasuna.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    
+      <!-- 4 RESPONSIVE BLOCKS -->
+      <div class="container-sm" style="padding: 50px;">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card card-flip h-100" style="width: 100%;">
+              <div class="card-front text-white bg-dark" style="width: 100%;">
+                  <div class="card-body" style="width: 100%;">
+                      <img src="images/ruben garcia.jpg" width="100%">
+                  </div>
+              </div>
+              <div class="card-back bg-white" style="background: linear-gradient(to right, #E6371F, #1F61E6); color: blanchedalmond; text-align: center;">
+                  <div class="card-body">
+                      <h3 class="card-title">Rubén García</h3>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white bg-warning">
+                  <div class="card-body">
+                      <img src="images/oier.jpg" width="100%">
+                  </div>
+              </div>
+              <div class="card-back bg-dark text-white" style="background: linear-gradient(to right, #E6371F, #1F61E6); color: blanchedalmond; text-align: center;">
+                  <div class="card-body">
+                    <h3 class="card-title">Oier</h3>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white bg-success">
+                  <div class="card-body">
+                    <img src="images/roberto.jpeg" width="100%">
+                  </div>
+              </div>
+              <div class="card-back bg-white" style="background: linear-gradient(to right, #E6371F, #1F61E6); color: blanchedalmond; text-align: center;">
+                  <div class="card-body">
+                      <h3 class="card-title">Roberto Torres</h3>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white bg-danger">
+                  <div class="card-body">
+                    <img src="images/chimy.jpg" width="100%">
+                  </div>
+              </div>
+              <div class="card-back bg-white" style="background: linear-gradient(to right, #E6371F, #1F61E6); color: blanchedalmond; text-align: center;">
+                  <div class="card-body">
+                      <h3 class="card-title">Chimy Ávila</h3>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACORDEON -->
+      <div class="container-sm" style="padding: 50px;">
+        <div class="accordion" id="accordionExample">
+          <div class="row">
+          <div class="col-sm-6">
+          <div class="card z-depth-0 bordered">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Mascota del club
+                </button>
+              </h5>
+            </div>
+          </div>
+          <div class="card z-depth-0 bordered">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Estadio e instalaciones
+                </button>
+              </h5>
+            </div>
+          </div>
+          <div class="card z-depth-0 bordered">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Otros datos de interés
+                </button>
+              </h5>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-6 card z-depth-0 bordered">
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+              data-parent="#accordionExample">
+              <div class="card-body">
+                La mascotas de Osasuna son Rojillo y Rojilla, un simpático aficionado vestido con el uniforme completo del equipo y caracterizado por su gran cabeza y su inconfundible txapela. Rojillo suele aparecer antes y durante el descanso de los partidos celebrados en El Sadar para animar y divertir a la afición. Rojillo, única mascota de la historia de Osasuna, nació en 1999 y desapareció en 2002. En 2016, tras 14 años de ausencia, Rojillo reapareció con una estética diferente y más acorde a los nuevos tiempos. Rojillo se creó a iniciativa de la junta directiva de Javier Miranda en 1999. 
+                ​El jueves 22 de septiembre de 2016, Rojillo encontró a su "media naranja", Rojilla, compañera de Rojillo y símbolo de la creciente y ansiada inclusión femenina en el universo osasunista.
+              </div>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                El Sadar (nombre tomado del río Sadar, que se encuentra en las inmediaciones del estadio), tiene capacidad para 18.375 espectadores sentados. Inaugurado en 1967, las dimensiones de su terreno de juego son de 105 metros de largo y 67,5 metros de ancho. Artículo principal: Instalaciones Deportivas de Tajonar En las Instalaciones Deportivas de Tajonar, inauguradas en el mes de julio de 1982, se encuentra la Escuela de Fútbol de Tajonar, donde se forman jugadores al fin de que se integren en la disciplina profesional del C.A. Osasuna. 
+                En 2001, mientras tanto, la Ciudad Deportiva se vio ampliada con la construcción de tres nuevos campos y sus respectivos vestuarios, pasando las Instalaciones de Tajonar a contar con dos campos de hierba natural, dos de hierba artificial, dos de arena y un campo de hierba natural que se utiliza para el entrenamiento de porteros. 
+              </div>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Osasuna cuenta con una gran cantera futbolística, una de las mayores de España, con quince equipos en categorías inferiores (incluidos dos equipos femeninos) y acuerdos de colaboración con más de un centenar de clubes de Navarra. Además, organiza anualmente una Escuela de Fútbol, consistente en la impartición de clases a jóvenes futbolistas en diferentes localidades de la provincia.
+Estas actividades están coordinadas por la Fundación Osasuna, cuyos objetivos incluyen la creación de actividades sociales, culturales y deportivas, además de promover el fútbol base de la Comunidad.
+El club cuenta con 94 peñas oficiales, no sólo en Navarra, sino en numerosos puntos de España e incluso, en lugares tan distantes como México, Uruguay y Suiza.
+Los aficionados celebran los triunfos del equipo en la Plaza del Castillo de la capital navarra.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- MAPA Y FORMULARIO -->
+
+      <div class="container-sm" style="padding: 20px;">
+        <div class="row">
+          <div class="col-sm-7">
+              <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.5898128572!2d-1.6389089841316136!3d42.79702067916008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5093b4d2c8b7e9%3A0x61e2a58a950a8bc0!2sEstadio%20El%20Sadar!5e0!3m2!1ses!2ses!4v1581068415285!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>            
+              </div>
+          </div>
+          <div class="col-sm-5" style="background: linear-gradient(to right, #E6371F, #1F61E6); border-radius: 8px; color: blanchedalmond;">
+            <section class="mb-4">
+
+              <!--Section heading-->
+              <h2 class="h1-responsive font-weight-bold text-center my-4">Contáctanos</h2>
+              <!--Section description-->
+              <p class="text-center w-responsive mx-auto mb-5">Tienes alguna pregunta? No dudes en contactarnos. Nuestro equipo intentará atenderte cuanto antes.</p>
+          
+              <div class="row">
+          
+                  <!--Grid column-->
+                  <div class="col-sm-12 mb-md-0 mb-5">
+                      <form id="contact-form" name="contact-form" action="mail.php" method="POST" style="width: 100%;">
+          
+                          <!--Grid row-->
+                          <div class="row">
+          
+                              <!--Grid column-->
+                              <div class="col-sm-6">
+                                  <div class="md-form mb-0">
+                                    <label for="name" class="">Tu nombre</label>
+                                      <input type="text" id="name" name="name" class="form-control">
+                                  </div>
+                              </div>
+                              <!--Grid column-->
+          
+                              <!--Grid column-->
+                              <div class="col-sm-6">
+                                  <div class="md-form mb-0">
+                                    <label for="email" class="">Tu Email</label>
+                                      <input type="text" id="email" name="email" class="form-control">
+                                  </div>
+                              </div>
+                              <!--Grid column-->
+          
+                          </div>
+                          <!--Grid row-->
+          
+                          <!--Grid row-->
+                          <div class="row">
+                              <div class="col-sm-12">
+                                  <div class="md-form mb-0">
+                                    <label for="subject" class="">Asunto</label>
+                                      <input type="text" id="subject" name="subject" class="form-control">
+                                  </div>
+                              </div>
+                          </div>
+                          <!--Grid row-->
+          
+                          <!--Grid row-->
+                          <div class="row">
+          
+                              <!--Grid column-->
+                              <div class="col-sm-12">
+          
+                                  <div class="sm-form">
+                                    <label for="message">Escribe tu mensaje</label>
+                                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  </div>
+          
+                              </div>
+                          </div>
+                          <!--Grid row-->
+          
+                      </form>
+          
+                      <div class="text-center text-sm-right" style="margin-top: 30px;">
+                          <a class="btn btn-success align-self-right">Enviar</a>
+                      </div>
+                  </div>
+                  <!--Grid column-->          
+              </div>
+          
+          </section>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- FOOTER-->
+    <footer class="page-footer font-small bg-dark text-light pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h3 class="text-uppercase">Contacto</h3>
+            <div class="row">
+              <div class="col-sm-6">
+                <h5> Oficinas, Abonados, Ticketing </h5>
+                <p>
+                  Calle Sadar s/n, 31006 Pamplona (Navarra) <br>
+                  Teléfono: 948 15 26 36</p>
+              </div>
+              <div class="col-sm-6">
+               <h5>Fútbol Base - Tajonar</h5>
+                <p>
+                  Polígono Industrial Berroa s/n, 31192 Tajonar (Navarra) <br>
+                  Teléfono: 948 23 00 27</p>
+              </div>
+            </div>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">NUESTROS PATROCINADORES</h5>
+
+            <div class="row">
+              <div class="col-md-6 row">
+                <div class="col-md-6">
+                  <a href="https://kirolbet.es"><img src="images/kirolbet.gif" width="100%"></a>
+                </div>
+                <div class="col-md-6">
+                  <a href="https://www.euskaltel.com"><img src="images/euskaltel.jpg" width="100%"></a>
+                </div>
+              </div>
+              <div class="col-md-6 row">
+                <div class="col-md-6">
+                  <a href="https://www.lacturale.com/es/"><img src="images/lacturale.png" width="100%"></a>
+                </div>
+                <div class="col-md-6">
+                  <a href="https://selk.es/es/"><img src="images/selk.jpg" width="100%"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Aviso Legal</a>
+              </li>
+              <li>
+                <a href="#!">Política de privacidad</a>
+              </li>
+              <li>
+                <a href="#!">Política de cookies</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3 text-light">
+        Página Oficial © Club Atlético Osasuna
+      </div>
+    </footer>
+      
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+</html>
